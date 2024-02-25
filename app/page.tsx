@@ -17,6 +17,7 @@ import {
   GlowingStarsDescription,
   GlowingStarsTitle,
 } from "@/components/ui/GlowingStars";
+import { IconBrandPython } from "@tabler/icons-react";
 
 export default function Home() {
   return (
@@ -63,7 +64,6 @@ export default function Home() {
       </div>
       <div className="flex space-x-10 mx-10  items-center justify-center antialiased">
         <GlowingStarsBackgroundCard>
-          <p>fdsafdfd</p>
           <GlowingStarsTitle>Data Analysis</GlowingStarsTitle>
           <div className="flex justify-between items-end">
             <GlowingStarsDescription>
@@ -72,6 +72,22 @@ export default function Home() {
             <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
               <Icon />
             </div>
+          </div>
+          <div>
+            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"/py.png"} className="w-10 h-10" alt="" />
+              Badge
+            </span>
+
+            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"/t.png"} className="w-16 h-16" alt="" />
+              Badge
+            </span>
+
+            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"/sql.png"} className="w-16 h-16" alt="" />
+              Badge
+            </span>
           </div>
         </GlowingStarsBackgroundCard>
 
