@@ -31,8 +31,19 @@ export default function Home() {
             alt="Bordered avatar"
           />
           {/* <p className="mx-auto text-center font-semibold py-2 pt-2">
-          Hello, I'm Albert Mends 👋🏽
+          Hello, I'm Albert Me
+          nds 👋🏽
         </p> */}
+
+          <div>
+            <Button
+              borderRadius="1.75rem"
+              className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              Borders are cool
+            </Button>
+          </div>
+
           <h1 className="text-4xl p-2 md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
             Transforming <br /> <span className="text-[#51c318]">Data</span>{" "}
             into Insights.
