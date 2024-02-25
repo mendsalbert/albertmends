@@ -63,7 +63,8 @@ export default function Home() {
       </div>
       <div className="flex space-x-10 mx-10  items-center justify-center antialiased">
         <GlowingStarsBackgroundCard>
-          <GlowingStarsTitle>Next.js 14</GlowingStarsTitle>
+          <p>fdsafdfd</p>
+          <GlowingStarsTitle>Data Analysis</GlowingStarsTitle>
           <div className="flex justify-between items-end">
             <GlowingStarsDescription>
               The power of full-stack to the frontend. Read the release notes.
@@ -75,7 +76,7 @@ export default function Home() {
         </GlowingStarsBackgroundCard>
 
         <GlowingStarsBackgroundCard>
-          <GlowingStarsTitle>Next.js 14</GlowingStarsTitle>
+          <GlowingStarsTitle>Machine Learning</GlowingStarsTitle>
           <div className="flex justify-between items-end">
             <GlowingStarsDescription>
               The power of full-stack to the frontend. Read the release notes.
@@ -87,7 +88,7 @@ export default function Home() {
         </GlowingStarsBackgroundCard>
 
         <GlowingStarsBackgroundCard>
-          <GlowingStarsTitle>Next.js 14</GlowingStarsTitle>
+          <GlowingStarsTitle>Data Visualization</GlowingStarsTitle>
           <div className="flex justify-between items-end">
             <GlowingStarsDescription>
               The power of full-stack to the frontend. Read the release notes.
