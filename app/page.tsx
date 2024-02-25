@@ -61,8 +61,31 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <div className="flex space-x-10 mx-10  items-center justify-center antialiased">
+        <GlowingStarsBackgroundCard>
+          <GlowingStarsTitle>Next.js 14</GlowingStarsTitle>
+          <div className="flex justify-between items-end">
+            <GlowingStarsDescription>
+              The power of full-stack to the frontend. Read the release notes.
+            </GlowingStarsDescription>
+            <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
+              <Icon />
+            </div>
+          </div>
+        </GlowingStarsBackgroundCard>
 
-      <div className="flex py-5 items-center justify-center antialiased">
+        <GlowingStarsBackgroundCard>
+          <GlowingStarsTitle>Next.js 14</GlowingStarsTitle>
+          <div className="flex justify-between items-end">
+            <GlowingStarsDescription>
+              The power of full-stack to the frontend. Read the release notes.
+            </GlowingStarsDescription>
+            <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
+              <Icon />
+            </div>
+          </div>
+        </GlowingStarsBackgroundCard>
+
         <GlowingStarsBackgroundCard>
           <GlowingStarsTitle>Next.js 14</GlowingStarsTitle>
           <div className="flex justify-between items-end">
