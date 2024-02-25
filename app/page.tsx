@@ -11,6 +11,7 @@ import {
   MenuItem,
   ProductItem,
 } from "@/components/ui/NavBar";
+import { Button } from "@/components/ui/MovingBorder";
 
 export default function Home() {
   return (
@@ -35,19 +36,18 @@ export default function Home() {
           nds 👋🏽
         </p> */}
 
-          <div>
+          <h1 className="text-4xl p-2 md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+            Transforming <br /> <span className="text-[#51c318]">Data</span>{" "}
+            into Insights.
+          </h1>
+          {/* <div className="mx-auto self-center">
             <Button
               borderRadius="1.75rem"
               className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
             >
               Borders are cool
             </Button>
-          </div>
-
-          <h1 className="text-4xl p-2 md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-            Transforming <br /> <span className="text-[#51c318]">Data</span>{" "}
-            into Insights.
-          </h1>
+          </div> */}
           <p className="mt-6 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
             Spotlight effect is a great way to draw attention to a specific part
             of the page. Here, we are drawing the attention towards the text
