@@ -62,7 +62,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex py-20 items-center justify-center antialiased">
+      <div className="flex py-5 items-center justify-center antialiased">
         <GlowingStarsBackgroundCard>
           <GlowingStarsTitle>Next.js 14</GlowingStarsTitle>
           <div className="flex justify-between items-end">
