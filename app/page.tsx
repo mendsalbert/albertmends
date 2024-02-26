@@ -64,7 +64,7 @@ export default function Home() {
       </div>
       <div className="flex space-x-10 mx-10  items-center justify-center antialiased">
         <GlowingStarsBackgroundCard>
-          <GlowingStarsTitle>Data Analysis</GlowingStarsTitle>
+          <GlowingStarsTitle>Data Analysis & BI</GlowingStarsTitle>
           <div className="flex justify-between items-end">
             <GlowingStarsDescription>
               The power of full-stack to the frontend. Read the release notes.
@@ -75,18 +75,22 @@ export default function Home() {
           </div>
           <div>
             <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/py.png"} className="w-10 h-10" alt="" />
-              Badge
+              <img src={"/py.png"} className="w-5 h-5" alt="" />
+              Python
             </span>
 
             <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/t.png"} className="w-16 h-16" alt="" />
-              Badge
+              <img src={"/t.png"} className="w-5 h-5" alt="" />
+              Tableau
             </span>
 
             <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/sql.png"} className="w-16 h-16" alt="" />
-              Badge
+              <img src={"/sql.png"} className="w-4 h-5" alt="" />
+              SQL
+            </span>
+            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"/xcel.png"} className="w-5 h-5" alt="" />
+              Excel
             </span>
           </div>
         </GlowingStarsBackgroundCard>
@@ -100,6 +104,26 @@ export default function Home() {
             <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
               <Icon />
             </div>
+          </div>
+          <div>
+            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"/sci.png"} className="w-7 h-5" alt="" />
+              Sci-Kit
+            </span>
+
+            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"/ts.png"} className="w-5 h-5" alt="" />
+              Tensorflow
+            </span>
+
+            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"pyt.png"} className="w-4 h-5" alt="" />
+              Pytorch
+            </span>
+            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"aws.png"} className="w-7 h-5" alt="" />
+              AWS
+            </span>
           </div>
         </GlowingStarsBackgroundCard>
 
