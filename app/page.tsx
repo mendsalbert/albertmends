@@ -73,24 +73,28 @@ export default function Home() {
               <Icon />
             </div>
           </div>
-          <div>
-            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+          <div className="py-2">
+            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
               <img src={"/py.png"} className="w-5 h-5" alt="" />
               Python
             </span>
 
-            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
               <img src={"/t.png"} className="w-5 h-5" alt="" />
               Tableau
             </span>
 
-            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
               <img src={"/sql.png"} className="w-4 h-5" alt="" />
               SQL
             </span>
-            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
               <img src={"/xcel.png"} className="w-5 h-5" alt="" />
               Excel
+            </span>
+            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"/pd.png"} className="w-6 h-5" alt="" />
+              Pandas
             </span>
           </div>
         </GlowingStarsBackgroundCard>
@@ -105,22 +109,22 @@ export default function Home() {
               <Icon />
             </div>
           </div>
-          <div>
-            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+          <div className="py-2">
+            <span className="inline-flex mr-1 mb-1  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
               <img src={"/sci.png"} className="w-7 h-5" alt="" />
               Sci-Kit
             </span>
 
-            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+            <span className="inline-flex mr-1 mb-1  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
               <img src={"/ts.png"} className="w-5 h-5" alt="" />
               Tensorflow
             </span>
 
-            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
               <img src={"pyt.png"} className="w-4 h-5" alt="" />
               Pytorch
             </span>
-            <span className="inline-flex  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
               <img src={"aws.png"} className="w-7 h-5" alt="" />
               AWS
             </span>
@@ -136,6 +140,25 @@ export default function Home() {
             <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
               <Icon />
             </div>
+          </div>
+          <div className="py-2">
+            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"/t.png"} className="w-5 h-5" alt="" />
+              Tableau
+            </span>
+
+            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"/plot.png"} className="w-5 h-5" alt="" />
+              MatPlotlib
+            </span>
+            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"/sb.png"} className="w-5 h-5" alt="" />
+              Seaborn
+            </span>
+            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
+              <img src={"aws.png"} className="w-7 h-5" alt="" />
+              AWS QuickSight
+            </span>
           </div>
         </GlowingStarsBackgroundCard>
       </div>
