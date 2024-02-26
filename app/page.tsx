@@ -67,7 +67,9 @@ export default function Home() {
           <GlowingStarsTitle>Data Analysis & BI</GlowingStarsTitle>
           <div className="flex justify-between items-end">
             <GlowingStarsDescription>
-              The power of full-stack to the frontend. Read the release notes.
+              Mastering data's complexities with Python and Tableau to reveal
+              actionable insights. My proficiency with SQL and Pandas underpins
+              robust, data-driven decision-making.
             </GlowingStarsDescription>
             <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
               <Icon />
