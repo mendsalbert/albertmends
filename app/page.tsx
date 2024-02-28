@@ -520,11 +520,13 @@ const SkeletonFourA = () => {
           width="100"
           className="rounded-full h-10 w-10"
         />
-        <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
+        <p className="sm:text-sm text-xs text-center font-semibold text-neutral-200 mt-4">
           Data Analysis & BI
         </p>
-
-        <div className="flex flex-row flex-wrap space-x-2 justify-center mt-2">
+        <p className="sm:text-sm text-xs text-center font-semibold text-neutral-200 mt-4">
+          Data Analysis & BI
+        </p>
+        <div className="flex flex-row flex-wrap space-x-2 justify-center mt-1">
           <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
             Sensible
           </p>
