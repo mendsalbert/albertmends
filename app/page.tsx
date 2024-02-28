@@ -3,8 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { cn } from "@/utils/cn";
 import { Spotlight } from "@/components/ui/Spotlight";
-import Link from "next/link";
-import { MacbookScroll } from "@/components/ui/MacbookScroll";
+
 import {
   HoveredLink,
   Menu,
@@ -22,8 +21,6 @@ import {
   IconUsers,
   IconUsersGroup,
 } from "@tabler/icons-react";
-import { Meteors } from "@/components/ui/Meteors";
-// import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 
 import {
   IconBoxAlignRightFilled,
@@ -34,7 +31,6 @@ import {
 } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
-import { PinContainer } from "@/components/ui/3DPin";
 
 export default function Home() {
   return (
