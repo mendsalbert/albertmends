@@ -11,12 +11,7 @@ import {
   MenuItem,
   ProductItem,
 } from "@/components/ui/NavBar";
-import { Button } from "@/components/ui/MovingBorder";
-import {
-  GlowingStarsBackgroundCard,
-  GlowingStarsDescription,
-  GlowingStarsTitle,
-} from "@/components/ui/GlowingStars";
+
 import {
   IconBrandPython,
   IconCodeCircle,
