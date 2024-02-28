@@ -521,27 +521,31 @@ const SkeletonFourA = () => {
           className="rounded-full h-10 w-10"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-200 mt-4">
-          Data Analysis & BI
+          Data Analysis, Engineering & BI
         </p>
-        <p className="sm:text-sm text-xs text-center font-semibold text-neutral-200 mt-4">
-          Data Analysis & BI
-        </p>
+
         <div className="flex flex-row flex-wrap space-x-2 justify-center mt-1">
           <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-            Sensible
+            Python
           </p>
           <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-            Sensible
-          </p>
-          <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-            Sensible
+            Tableau
           </p>{" "}
           <br />
           <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-            Sensible
+            SQL
           </p>
           <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-            Sensible
+            Excel
+          </p>
+          <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+            Pandas
+          </p>
+          <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+            Spark
+          </p>
+          <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+            AWS Glue
           </p>
         </div>
       </motion.div>
@@ -553,12 +557,34 @@ const SkeletonFourA = () => {
           width="100"
           className="rounded-full h-10 w-10"
         />
-        <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-          Tailwind CSS is cool, you know
+        <p className="sm:text-sm text-xs text-center font-semibold text-neutral-200 mt-4">
+          Machine Learning Engineer
         </p>
-        <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-          Sensible
-        </p>
+
+        <div className="flex flex-row flex-wrap space-x-2 justify-center mt-1">
+          <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+            Sci-Kit{" "}
+          </p>
+          <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+            Tableau
+          </p>{" "}
+          <br />
+          <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+            SQL
+          </p>
+          <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+            Excel
+          </p>
+          <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+            Pandas
+          </p>
+          <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+            Spark
+          </p>
+          <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
+            AWS Glue
+          </p>
+        </div>
       </motion.div>
       <motion.div
         variants={second}
