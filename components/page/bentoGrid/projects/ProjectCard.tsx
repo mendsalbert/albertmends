@@ -7,7 +7,17 @@ import {
   IconUsersGroup,
 } from "@tabler/icons-react";
 
-const ProjectCard = () => {
+interface ProjectCardProps {
+  name: string;
+  description: string;
+  image: string; // Assuming image is a URL string. If it's an object, you'd define the shape of the object here.
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  name,
+  description,
+  image,
+}) => {
   const variants = {
     initial: {
       backgroundPosition: "0 50%",
@@ -31,7 +41,7 @@ const ProjectCard = () => {
         // background:
         //   "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
         // backgroundSize: "400% 400%",
-        backgroundImage: "url('/proj.png')",
+        backgroundImage: `url('/${image}')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -43,11 +53,9 @@ const ProjectCard = () => {
         <div className="flex justify-between items-center">
           <div>
             <p className="text-white relative z-10 flex space-x-2 font-bold">
-              Splorite <IconLink size={14} />
+              {name} <IconLink size={14} />
             </p>
-            <p className="text-white relative z-10 text-xs">
-              AI Educational Chatbot
-            </p>
+            <p className="text-white relative z-10 text-xs">{description}</p>
           </div>
 
           <p className="border flex items-center space-x-1 flex-row z-40 w-min border-white  text-white text-xs rounded-full px-2 py-0.5 mt-2">
