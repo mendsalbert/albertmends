@@ -25,6 +25,7 @@ import {
   IconLink,
   IconServer2,
   IconUsers,
+  IconUsersGroup,
 } from "@tabler/icons-react";
 import { Meteors } from "@/components/ui/Meteors";
 // import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
@@ -307,16 +308,21 @@ const SkeletonThree = () => {
       <motion.div className="h-full w-full rounded-lg"></motion.div>
       <div className="p-2 relative">
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-        <div className="text-white text-sm flex flex-row bg-">
-          <IconUsers color="white" size={18} />
-          <p className="text-white text-xs">10K+</p>
+        <div className="flex justify-between items-center">
+          <div>
+            <p className="text-white relative z-10 flex space-x-2 font-bold">
+              Splorite <IconLink size={14} />
+            </p>
+            <p className="text-white relative z-10 text-xs">
+              AI Educational Chatbot
+            </p>
+          </div>
+
+          <p className="border flex items-center space-x-1 flex-row z-40 w-min border-white  text-white text-xs rounded-full px-2 py-0.5 mt-2">
+            <IconUsersGroup size={16} />
+            <span>6.5k</span>
+          </p>
         </div>
-        <p className="text-white relative z-10 flex space-x-2 font-bold">
-          Splorite <IconLink size={18} />
-        </p>
-        <p className="text-white relative z-10 text-xs">
-          AI Educational Chatbot
-        </p>
       </div>
     </motion.div>
   );
