@@ -1,3 +1,4 @@
+import Projects from "./projects";
 import SkillsComponent from "./skills";
 
 const items = [
@@ -12,13 +13,13 @@ const items = [
     className: "md:col-span-3",
     icon: "",
   },
-  // {
-  //   title: "View Full Project Archive",
-  //   description: <span className="text-sm"></span>,
-  //   header: <SkeletonFourB />,
-  //   className: "md:col-span-3",
-  //   icon: "",
-  // },
+  {
+    title: "View Full Project Archive",
+    description: <span className="text-sm"></span>,
+    header: <Projects />,
+    className: "md:col-span-3",
+    icon: "",
+  },
 
   // {
   //   title: "AI Content Generation",
