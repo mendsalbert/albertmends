@@ -22,7 +22,9 @@ import {
   IconCodeCircle,
   IconCodeDots,
   IconDeviceLaptop,
+  IconLink,
   IconServer2,
+  IconUsers,
 } from "@tabler/icons-react";
 import { Meteors } from "@/components/ui/Meteors";
 // import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
@@ -36,6 +38,7 @@ import {
 } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
+import { PinContainer } from "@/components/ui/3DPin";
 
 export default function Home() {
   return (
@@ -79,109 +82,6 @@ export default function Home() {
             of copy.
           </p>
         </div>
-      </div>
-      <div className="flex space-x-10 mx-10  items-center justify-center antialiased">
-        <GlowingStarsBackgroundCard>
-          <GlowingStarsTitle>Data Analysis & BI</GlowingStarsTitle>
-          <div className="flex justify-between items-end">
-            <GlowingStarsDescription>
-              Transforming complex data into clear insights with Python,
-              Tableau, SQL, and Pandas.
-            </GlowingStarsDescription>
-            <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
-              <Icon />
-            </div>
-          </div>
-          <div className="py-2">
-            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/py.png"} className="w-5 h-5" alt="" />
-              Python
-            </span>
-
-            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/t.png"} className="w-5 h-5" alt="" />
-              Tableau
-            </span>
-
-            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/sql.png"} className="w-4 h-5" alt="" />
-              SQL
-            </span>
-            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/xcel.png"} className="w-5 h-5" alt="" />
-              Excel
-            </span>
-            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/pd.png"} className="w-6 h-5" alt="" />
-              Pandas
-            </span>
-          </div>
-        </GlowingStarsBackgroundCard>
-
-        <GlowingStarsBackgroundCard>
-          <GlowingStarsTitle>Machine Learning</GlowingStarsTitle>
-          <div className="flex justify-between items-end">
-            <GlowingStarsDescription>
-              Building smart, adaptable models with Sci-Kit Learn, TensorFlow,
-              and PyTorch.
-            </GlowingStarsDescription>
-            <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
-              <Icon />
-            </div>
-          </div>
-          <div className="py-2">
-            <span className="inline-flex mr-1 mb-1  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/sci.png"} className="w-7 h-5" alt="" />
-              Sci-Kit
-            </span>
-
-            <span className="inline-flex mr-1 mb-1  items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/ts.png"} className="w-5 h-5" alt="" />
-              Tensorflow
-            </span>
-
-            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"pyt.png"} className="w-4 h-5" alt="" />
-              Pytorch
-            </span>
-            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"aws.png"} className="w-7 h-5" alt="" />
-              AWS
-            </span>
-          </div>
-        </GlowingStarsBackgroundCard>
-
-        <GlowingStarsBackgroundCard>
-          <GlowingStarsTitle>Data Visualization</GlowingStarsTitle>
-          <div className="flex justify-between items-end">
-            <GlowingStarsDescription>
-              Crafting compelling data stories through Tableau, Matplotlib,
-              Seaborn, and AWS QuickSight.
-            </GlowingStarsDescription>
-            <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
-              <Icon />
-            </div>
-          </div>
-          <div className="py-2">
-            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/t.png"} className="w-5 h-5" alt="" />
-              Tableau
-            </span>
-
-            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/plot.png"} className="w-5 h-5" alt="" />
-              MatPlotlib
-            </span>
-            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"/sb.png"} className="w-5 h-5" alt="" />
-              Seaborn
-            </span>
-            <span className="inline-flex mr-1 mb-1 items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-white">
-              <img src={"aws.png"} className="w-7 h-5" alt="" />
-              AWS QuickSight
-            </span>
-          </div>
-        </GlowingStarsBackgroundCard>
       </div>
 
       <BentoGrid className="max-w-5xl mx-auto md:auto-rows-[20rem]">
@@ -395,12 +295,29 @@ const SkeletonThree = () => {
       }}
       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] rounded-lg bg-dot-black/[0.2] flex-col space-y-2"
       style={{
-        background:
-          "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
-        backgroundSize: "400% 400%",
+        // background:
+        //   "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
+        // backgroundSize: "400% 400%",
+        backgroundImage: "url('/proj.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
       }}
     >
       <motion.div className="h-full w-full rounded-lg"></motion.div>
+      <div className="p-2 relative">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+        <div className="text-white text-sm flex flex-row bg-">
+          <IconUsers color="white" size={18} />
+          <p className="text-white text-xs">10K+</p>
+        </div>
+        <p className="text-white relative z-10 flex space-x-2 font-bold">
+          Splorite <IconLink size={18} />
+        </p>
+        <p className="text-white relative z-10 text-xs">
+          AI Educational Chatbot
+        </p>
+      </div>
     </motion.div>
   );
 };
@@ -629,6 +546,29 @@ const SkeletonFourA = () => {
     </motion.div>
   );
 };
+const SkeletonFourB = () => {
+  const variants = {
+    initial: {
+      backgroundPosition: "0 50%",
+    },
+    animate: {
+      backgroundPosition: ["0, 50%", "100% 50%", "0 50%"],
+    },
+  };
+  return (
+    <motion.div
+      initial="initial"
+      animate="animate"
+      whileHover="hover"
+      className="flex flex-1 flex-wrap w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-row space-x-2"
+    >
+      <SkeletonThree />
+      <SkeletonThree />
+      <SkeletonThree />
+      {/* <SkeletonThree /> */}
+    </motion.div>
+  );
+};
 const SkeletonFive = () => {
   const variants = {
     initial: {
@@ -689,7 +629,7 @@ const SkeletonFive = () => {
 };
 const items = [
   {
-    title: "Sentiment Analysis",
+    title: "My Skills",
     description: (
       <span className="text-sm">
         Understand the sentiment of your text with AI analysis.
@@ -697,8 +637,16 @@ const items = [
     ),
     header: <SkeletonFourA />,
     className: "md:col-span-3",
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    icon: "",
   },
+  {
+    title: "View Full Project Archive",
+    description: <span className="text-sm"></span>,
+    header: <SkeletonFourB />,
+    className: "md:col-span-3",
+    icon: "",
+  },
+
   {
     title: "AI Content Generation",
     description: (
