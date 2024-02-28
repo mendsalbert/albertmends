@@ -37,23 +37,17 @@ const items = [
   },
 
   {
-    title: "Sentiment Analysis",
-    description: (
-      <span className="text-sm">
-        Understand the sentiment of your text with AI analysis.
-      </span>
-    ),
+    title: "Oh, I also enjoy writing",
+    description: <span className="text-sm">Check some of my few blogs </span>,
     header: <Blog />,
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
 
   {
-    title: "Text Summarization",
+    title: "Lets chat",
     description: (
-      <span className="text-sm">
-        Summarize your lengthy documents with AI technology.
-      </span>
+      <span className="text-sm">Contact me on any of my socials</span>
     ),
     header: <Contact />,
     className: "md:col-span-1",

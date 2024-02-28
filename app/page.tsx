@@ -28,8 +28,8 @@ export default function Home() {
   return (
     <div>
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-      <div className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
-        <Navbar className="top-2" />
+      <div className="h-[37.9rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+        {/* <Navbar className="top-2" /> */}
         <Spotlight
           className="-top-40 left-0 md:left-60 md:-top-20"
           fill="white"
@@ -48,10 +48,10 @@ export default function Home() {
           </h1>
 
           <p className="mt-6 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-            Spotlight effect is a great way to draw attention to a specific part
-            of the page. Here, we are drawing the attention towards the text
-            section of the page. I don&apos;t know why but I&apos;m running out
-            of copy.
+            As a dynamic and multi-faceted technology professional, I specialize
+            in crafting pixel-perfect, engaging, and accessible digital
+            experiences that stand at the intersection of data, design, and
+            development{" "}
           </p>
         </div>
       </div>

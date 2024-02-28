@@ -1,3 +1,4 @@
+import { IconBrandGmail } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -38,23 +39,42 @@ const Contact = () => {
         className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2  items-start space-x-2 bg-white dark:bg-black"
       >
         <Image
-          src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
+          src="/mends.png"
           alt="avatar"
           height="100"
           width="100"
           className="rounded-full h-10 w-10"
         />
         <p className="text-xs text-neutral-500">
-          There are a lot of cool framerworks out there like React, Angular,
-          Vue, Svelte that can make your life ....
+          Hi, you have spent 5 mins on this site, do you need me for a project
+          or hire?
+        </p>
+      </motion.div>
+
+      <motion.div
+        variants={variants}
+        className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2  items-start space-x-2 bg-white dark:bg-black"
+      >
+        <Image
+          src="/mends.png"
+          alt="avatar"
+          height="100"
+          width="100"
+          className="rounded-full h-10 w-10"
+        />
+        <p className="text-xs text-neutral-500">
+          Contact me on mendsalbert@gmail.com or any of my Socials I am glad to
+          be your next client
         </p>
       </motion.div>
       <motion.div
-        variants={variantsSecond}
-        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center justify-end space-x-2 w-3/4 ml-auto bg-white dark:bg-black"
+        variants={variants}
+        className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2  items-start space-x-2 bg-white dark:bg-black"
       >
-        <p className="text-xs text-neutral-500">Use PHP.</p>
-        <div className="h-6 w-6 rounded-full bg-gradient-to-r from-pink-500 to-violet-500 flex-shrink-0" />
+        <IconBrandGmail />
+        <IconBrandGmail />
+        <IconBrandGmail />
+        <IconBrandGmail />
       </motion.div>
     </motion.div>
   );
