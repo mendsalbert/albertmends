@@ -1,4 +1,9 @@
-import { IconBrandGmail } from "@tabler/icons-react";
+import {
+  IconBrandGmail,
+  IconBrandLinkedin,
+  IconBrandTiktok,
+  IconBrandX,
+} from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import VisitTimer from "../../timer";
@@ -65,19 +70,22 @@ const Contact = () => {
         />
         <p className="text-xs text-neutral-500">
           Feel free to reach out to me at{" "}
-          <a href="mailto:mendsalbert@gmail.com">mendsalbert@gmail.com</a> or
-          through any of my social media platforms. I'm looking forward to
+          <a href="mailto:mendsalbert@gmail.com">
+            {" "}
+            <span className="text-green-400">mendsalbert@gmail.com</span>
+          </a>{" "}
+          or through any of my social media platforms. I'm looking forward to
           potentially becoming your next client!
         </p>
       </motion.div>
       <motion.div
         variants={variants}
-        className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2  items-start space-x-2 bg-white dark:bg-black"
+        className="flex mx-auto w-full flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2  items-start space-x-2 bg-white dark:bg-black"
       >
         <IconBrandGmail />
-        <IconBrandGmail />
-        <IconBrandGmail />
-        <IconBrandGmail />
+        <IconBrandLinkedin />
+        <IconBrandX />
+        <IconBrandTiktok />
       </motion.div>
     </motion.div>
   );

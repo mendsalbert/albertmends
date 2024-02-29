@@ -7,18 +7,31 @@ const Projects = () => {
       initial="initial"
       animate="animate"
       whileHover="hover"
-      className="flex flex-1 flex-wrap overflow-scroll w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-row space-x-2"
+      //   className="flex flex-1 flex-wrap overflow-scroll w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-row space-x-2"
+      className="flex flex-1 flex-wrap overflow-scroll w-full h-full min-h-[24rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col "
     >
       <ProjectCard
         name={"Splorite"}
-        description={"AI education App"}
-        image={"proj.png"}
+        description={"An enhanced AI chatbot for education App"}
+        image={"splorite_.png"}
+        url={"https://www.splorite.com/chat"}
+        usersCount={true}
       />
       <ProjectCard
         name={"Portfolio"}
         description={"AI education App"}
         image={"proj3.png"}
+        url={"jhh"}
+        usersCount={false}
       />
+      {/* <ProjectCard
+        name={"Portfolio"}
+        description={"AI education App"}
+        image={"proj3.png"}
+        url={"jhh"}
+        usersCount={false}
+      /> */}
+
       {/* <ProjectCard
         name={"Spotify"}
         description={"AI education App"}

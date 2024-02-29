@@ -6,17 +6,22 @@ import {
   IconServer2,
   IconUsersGroup,
 } from "@tabler/icons-react";
+import Link from "next/link";
 
 interface ProjectCardProps {
   name: string;
   description: string;
-  image: string; // Assuming image is a URL string. If it's an object, you'd define the shape of the object here.
+  image: string;
+  url: string;
+  usersCount: Boolean; // Assuming image is a URL string. If it's an object, you'd define the shape of the object here.
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   name,
   description,
   image,
+  url,
+  usersCount,
 }) => {
   const variants = {
     initial: {
@@ -53,15 +58,21 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <div className="flex justify-between items-center">
           <div>
             <p className="text-white relative z-10 flex space-x-2 font-bold">
-              {name} <IconLink size={14} />
+              <Link href={url} className="flex space-x-4 items-center">
+                {name} <IconLink size={18} />
+              </Link>
             </p>
             <p className="text-white relative z-10 text-xs">{description}</p>
           </div>
 
-          <p className="border flex items-center space-x-1 flex-row z-40 w-min border-white  text-white text-xs rounded-full px-2 py-0.5 mt-2">
-            <IconUsersGroup size={16} />
-            <span>6.5k</span>
-          </p>
+          {usersCount ? (
+            <p className="border flex items-center space-x-1 flex-row z-40 w-min border-white  text-white text-xs rounded-full px-2 py-0.5 mt-2">
+              <IconUsersGroup size={16} />
+              <span>6.5k</span>
+            </p>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </motion.div>
