@@ -4,16 +4,23 @@ import {
   IconClipboardCopy,
   IconBoxAlignRightFilled,
   IconTableColumn,
+  IconDownload,
 } from "@tabler/icons-react";
 import Socials from "./socials";
 import Blog from "./blogs";
 import Contact from "./contact";
 const items = [
   {
-    title: "My Skills",
+    title: "My Expertise",
     description: (
       <span className="text-sm">
-        Understand the sentiment of your text with AI analysis.
+        Here are the skills I bring to the table. <br />
+        <a href="/Albert-Mends.pdf" target="_blank">
+          <button className="space-x-1 cursor-pointer flex items-center justify-center bg-transparent  dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
+            <IconDownload size={19} />
+            <span>Download CV</span>
+          </button>
+        </a>
       </span>
     ),
     header: <SkillsComponent />,
@@ -37,8 +44,10 @@ const items = [
   },
 
   {
-    title: "Oh, I also enjoy writing",
-    description: <span className="text-sm">Check some of my few blogs </span>,
+    title: "I'm also passionate about writing",
+    description: (
+      <span className="text-sm">Feel free to check out some of writings </span>
+    ),
     header: <Blog />,
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,

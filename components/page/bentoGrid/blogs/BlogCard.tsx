@@ -6,14 +6,21 @@ import {
   IconServer2,
   IconUsersGroup,
 } from "@tabler/icons-react";
+import Link from "next/link";
 
 interface BlogCardProps {
   name: string;
   description: string;
-  image: string; // Assuming image is a URL string. If it's an object, you'd define the shape of the object here.
+  image: string;
+  url: string; // Assuming image is a URL string. If it's an object, you'd define the shape of the object here.
 }
 
-const BlogCard: React.FC<BlogCardProps> = ({ name, description, image }) => {
+const BlogCard: React.FC<BlogCardProps> = ({
+  name,
+  description,
+  image,
+  url,
+}) => {
   const variants = {
     initial: {
       backgroundPosition: "0 50%",
@@ -32,7 +39,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ name, description, image }) => {
         repeat: Infinity,
         repeatType: "reverse",
       }}
-      className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] rounded-lg bg-dot-black/[0.2] flex-col space-y-2"
+      className="my-2 flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] rounded-lg bg-dot-black/[0.2] flex-col space-y-2"
       style={{
         backgroundImage: `url('/${image}')`,
         backgroundSize: "cover",
@@ -46,7 +53,9 @@ const BlogCard: React.FC<BlogCardProps> = ({ name, description, image }) => {
         <div className="flex justify-between items-center">
           <div>
             <p className="text-white relative z-10 flex space-x-2 font-bold">
-              {name} <IconLink size={14} />
+              <Link href={url} className="flex space-x-4 items-center">
+                {name} <IconLink size={18} />
+              </Link>
             </p>
           </div>
         </div>

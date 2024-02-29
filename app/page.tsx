@@ -5,6 +5,7 @@ import { cn } from "@/utils/cn";
 import { Spotlight } from "@/components/ui/Spotlight";
 
 import {
+  IconArrowDownToArc,
   IconCodeCircle,
   IconCodeDots,
   IconLink,
@@ -55,6 +56,12 @@ export default function Home() {
             experiences that stand at the intersection of data, design, and
             development{" "}
           </p>
+
+          <div className="flex justify-center items-center pt-5">
+            <span className="animate-bounce">
+              <IconArrowDownToArc />
+            </span>
+          </div>
         </div>
       </div>
 

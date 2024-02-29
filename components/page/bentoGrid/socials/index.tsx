@@ -57,18 +57,25 @@ const Socials = () => {
       initial="initial"
       whileHover="animate"
       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
+      //   className="flex flex-1 w-full h-28 min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col"
     >
-      <div className="flex flex-col items-center justify-center h-[40rem]  ">
+      <div className="flex flex-col items-center justify-center  h-[18rem] md:h-[40rem]  ">
         <p className="text-neutral-600 text-center dark:text-neutral-200 text-lg sm:text-lg  ">
           I just dont code, I teach a huge Community how to code
         </p>
         <TypewriterEffectSmooth words={words} />
 
-        <div className="flex md:flex-row space-y-0 md:space-y-0 space-x-0 md:space-x-4">
+        <div className=" hidden md:flex md:flex-row space-y-0 md:space-y-0 space-x-0 md:space-x-4">
           <IconBrandYoutube size={42} />
           <IconBrandX size={42} />
           <IconBrandLinkedin size={42} />
           <IconBrandTiktok size={42} />
+        </div>
+        <div className="flex md:hidden  md:flex-row space-y-0 md:space-y-0 space-x-4 md:space-x-4">
+          <IconBrandYoutube size={40} />
+          <IconBrandX size={40} />
+          <IconBrandLinkedin size={40} />
+          <IconBrandTiktok size={40} />
         </div>
       </div>
     </motion.div>
