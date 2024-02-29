@@ -41,7 +41,9 @@ export default function Home() {
             src="mends.png"
             alt="Bordered avatar"
           />
-
+          <p className="text-xl p-2 md:text-2xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+            Hi, I'm <span className="text-[#51c318] ">Albert Mends 👋🏽</span>
+          </p>
           <h1 className="text-4xl p-2 md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
             Transforming <br /> <span className="text-[#51c318]">Data</span>{" "}
             into Insights.
