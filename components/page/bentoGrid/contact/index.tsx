@@ -1,6 +1,7 @@
 import { IconBrandGmail } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import VisitTimer from "../../timer";
 
 const Contact = () => {
   const variants = {
@@ -46,8 +47,8 @@ const Contact = () => {
           className="rounded-full h-10 w-10"
         />
         <p className="text-xs text-neutral-500">
-          Hi, you have spent 5 mins on this site, do you need me for a project
-          or hire?
+          Hi there! You've been exploring our site for {<VisitTimer />} now. Are
+          you considering us for a project or looking to hire? Let's talk!
         </p>
       </motion.div>
 
@@ -63,8 +64,10 @@ const Contact = () => {
           className="rounded-full h-10 w-10"
         />
         <p className="text-xs text-neutral-500">
-          Contact me on mendsalbert@gmail.com or any of my Socials I am glad to
-          be your next client
+          Feel free to reach out to me at{" "}
+          <a href="mailto:mendsalbert@gmail.com">mendsalbert@gmail.com</a> or
+          through any of my social media platforms. I'm looking forward to
+          potentially becoming your next client!
         </p>
       </motion.div>
       <motion.div

@@ -19,7 +19,7 @@ const Projects = () => {
         description={"AI education App"}
         image={"proj3.png"}
       />
-      <ProjectCard
+      {/* <ProjectCard
         name={"Spotify"}
         description={"AI education App"}
         image={"proj2.png"}
@@ -28,7 +28,7 @@ const Projects = () => {
         name={"Portfolio"}
         description={"AI education App"}
         image={"proj3.png"}
-      />
+      /> */}
     </motion.div>
   );
 };
