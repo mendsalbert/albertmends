@@ -9,18 +9,22 @@ import {
 import Socials from "./socials";
 import Blog from "./blogs";
 import Contact from "./contact";
+import Link from "next/link";
 const items = [
   {
     title: "My Expertise",
     description: (
       <span className="text-sm">
         Here are the skills I bring to the table. <br />
-        <a href="https://www.albertmends.com/albert-mends.pdf" target="_blank">
+        <Link href={"/albert-mends.pdf"} target="_blank">
           <button className="space-x-1 cursor-pointer flex items-center justify-center bg-transparent  dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
             <IconDownload size={19} />
             <span>Download CV</span>
           </button>
-        </a>
+        </Link>
+        {/* <a href="/albert-mends.pdf" target="_blank">
+          
+        </a> */}
       </span>
     ),
     header: <SkillsComponent />,
