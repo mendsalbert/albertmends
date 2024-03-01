@@ -16,7 +16,7 @@ const items = [
       <span className="text-sm">
         Here are the skills I bring to the table. <br />
         <a
-          href="https://drive.google.com/file/d/1kiMdo7H9SGdwPu0mV2YFc_k0EJXQ5JMm/view?usp=sharing"
+          href="https://drive.google.com/file/d/1F65MX4mrVYFkqj3rS21U5v4x9BJcY0K6/view?usp=sharing"
           target="_blank"
         >
           <button className="space-x-1 cursor-pointer flex items-center justify-center bg-transparent  dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
