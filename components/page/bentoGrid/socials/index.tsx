@@ -61,7 +61,8 @@ const Socials = () => {
     >
       <div className="flex flex-col items-center justify-center  h-[18rem] md:h-[40rem]  ">
         <p className="text-neutral-600 text-center dark:text-neutral-200 text-lg sm:text-lg  ">
-          I just dont code, I teach a huge Community how to code
+          I do more than just code; I empower a vast community by teaching them
+          how to code.
         </p>
         <TypewriterEffectSmooth words={words} />
 
