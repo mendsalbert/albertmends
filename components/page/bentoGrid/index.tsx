@@ -9,22 +9,21 @@ import {
 import Socials from "./socials";
 import Blog from "./blogs";
 import Contact from "./contact";
-import Link from "next/link";
 const items = [
   {
     title: "My Expertise",
     description: (
       <span className="text-sm">
         Here are the skills I bring to the table. <br />
-        <Link href={"/albert-mends.pdf"} target="_blank">
+        <a
+          href="https://drive.google.com/file/d/1kiMdo7H9SGdwPu0mV2YFc_k0EJXQ5JMm/view?usp=sharing"
+          target="_blank"
+        >
           <button className="space-x-1 cursor-pointer flex items-center justify-center bg-transparent  dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
             <IconDownload size={19} />
             <span>Download CV</span>
           </button>
-        </Link>
-        {/* <a href="/albert-mends.pdf" target="_blank">
-          
-        </a> */}
+        </a>
       </span>
     ),
     header: <SkillsComponent />,
