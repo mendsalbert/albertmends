@@ -56,7 +56,7 @@ const Blog = () => {
         initial="initial"
         animate="animate"
         whileHover="hover"
-        className="flex md:hidden flex-1 flex-wrap overflow-scroll w-full h-full min-h-[28rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col "
+        className="flex md:hidden flex-1 flex-wrap overflow-scroll w-full h-full min-h-[28rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-6 "
       >
         <BlogCard
           name={"SMS Spam Detection with ML...."}

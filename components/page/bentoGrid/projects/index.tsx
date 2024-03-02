@@ -51,7 +51,7 @@ const Projects = () => {
         animate="animate"
         whileHover="hover"
         //   className="flex flex-1 flex-wrap overflow-scroll w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-row space-x-2"
-        className="flex  md:hidden flex-1 flex-wrap overflow-scroll w-full h-full min-h-[24rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col "
+        className="flex  md:hidden flex-1 flex-wrap overflow-scroll w-full h-full min-h-[24rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col  space-y-6"
       >
         <ProjectCard
           name={"Splorite"}

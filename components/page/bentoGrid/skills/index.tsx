@@ -34,7 +34,7 @@ const SkillsComponent = () => {
         initial="initial"
         animate="animate"
         whileHover="hover"
-        className="hidden md:flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col md:flex-row  space-x-2"
+        className="z-50 md:z-auto hidden md:flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col md:flex-row  space-x-2"
       >
         <motion.div
           variants={first}
@@ -153,7 +153,7 @@ const SkillsComponent = () => {
         initial="initial"
         animate="animate"
         whileHover="hover"
-        className=" flex md:hidden flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col md:flex-row space-y-3"
+        className=" flex md:hidden flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col md:flex-row space-y-6"
       >
         <motion.div className="h-full md:w-1/3 w-full  rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
           <IconServer2 size={32} />
