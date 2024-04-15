@@ -9,7 +9,6 @@ const Projects = () => {
         animate="animate"
         whileHover="hover"
         className="hidden  md:flex flex-1 flex-wrap overflow-scroll w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-row space-x-2"
-        //   className="flex flex-1 flex-wrap overflow-scroll w-full h-full min-h-[24rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col "
       >
         <ProjectCard
           name={"Splorite"}
@@ -17,6 +16,13 @@ const Projects = () => {
           image={"splorite_.png"}
           url={"https://www.splorite.com/chat"}
           usersCount={true}
+        />
+        <ProjectCard
+          name={"Eco Air"}
+          description={" Air Quality Monitoring Dashboard"}
+          image={"ecoair.png"}
+          url={"https://eco-air.vercel.app/"}
+          usersCount={false}
         />
         <ProjectCard
           name={"MRI Scan Detection using CNN"}
@@ -27,6 +33,7 @@ const Projects = () => {
           }
           usersCount={false}
         />
+
         {/* <ProjectCard
         name={"Portfolio"}
         description={"AI education App"}
@@ -60,6 +67,14 @@ const Projects = () => {
           url={"https://www.splorite.com/chat"}
           usersCount={true}
         />
+
+        <ProjectCard
+          name={"Eco Air"}
+          description={" Air Quality Monitoring Dashboard"}
+          image={"ecoair.png"}
+          url={"https://eco-air.vercel.app/"}
+          usersCount={false}
+        />
         <ProjectCard
           name={"MRI Scan Detection using CNN"}
           description={"AI education App"}
@@ -69,24 +84,6 @@ const Projects = () => {
           }
           usersCount={false}
         />
-        {/* <ProjectCard
-        name={"Portfolio"}
-        description={"AI education App"}
-        image={"proj3.png"}
-        url={"jhh"}
-        usersCount={false}
-      /> */}
-
-        {/* <ProjectCard
-        name={"Spotify"}
-        description={"AI education App"}
-        image={"proj2.png"}
-      />
-      <ProjectCard
-        name={"Portfolio"}
-        description={"AI education App"}
-        image={"proj3.png"}
-      /> */}
       </motion.div>
     </>
   );
